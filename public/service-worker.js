@@ -1,17 +1,16 @@
 const FILES_TO_CACHE = [
     '/',
     '/index.html',
-    'assets/css/styles.css',
-    'assets/js/index.js',
+    '/assets/css/styles.css',
+    '/assets/js/index.js',
     '/manifest.webmanifest',
-    'assets/icons/icon-192x192.png',
-    'assets/icons/icon-512x512.png'
+    '/assets/icons/icon-192x192.png',
+    '/assets/icons/icon-512x512.png'
 ]
 
 const STATIC_CACHE = "static-cache-v2";
 const DATA_CACHE = "data-cache-v1";
 
-// Install
 self.addEventListener('install', evt => {
     evt.waitUntil(
         Promise.all([
