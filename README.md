@@ -1,9 +1,9 @@
 # Offline Budget Ttracker
 
 
-![Deployed Application](https://)
+[Deployed Application](https://morning-cliffs-55626.herokuapp.com/)
 
-![App Screenshot]()
+![App Screenshot](https://github.com/MRomano84/offline-budget-tracker/blob/main/public/assets/images/ss1.PNG)
 
 ## Summary
 
